@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/main.css" />
+    <title>Book List App</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="" alt="" class="book-img" />
+        <h1 class="title">My <span class="color-name">Book</span>List</h1>
+      </div>
+    </header>
+    <main>
+      <section class="container booklist-form">
+        <form action="POST">
+          <label for="book-name">Title</label>
+          <input type="text" id="book-name" />
+          <label for="book-author">Author</label>
+          <input type="text" id="book-author" />
+          <label for="book-id">ISBN</label>
+          <input type="text" id="book-id" />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </section>
+      <section class="container book-list">
+        <div class="booklist-header">
+          <h2 class="name">Title</h2>
+          <h2 class="author">Author</h2>
+          <h2 class="id">ISBN</h2>
+        </div>
+        <div class="item-container">
+          <div class="item">
+            <h2 class="name">New Book</h2>
+            <h2 class="author">Kashif</h2>
+            <h2 class="id">120393</h2>
+            <button class="remove">X</button>
+          </div>
+          <div class="item">
+            <h2 class="name">New Book</h2>
+            <h2 class="author">Kashif</h2>
+            <h2 class="id">120393</h2>
+            <button class="remove">X</button>
+          </div>
+          <div class="item">
+            <h2 class="name">New Book</h2>
+            <h2 class="author">Kashif</h2>
+            <h2 class="id">120393</h2>
+            <button class="remove">X</button>
+          </div>
+          <div class="item">
+            <h2 class="name">New Book</h2>
+            <h2 class="author">Kashif</h2>
+            <h2 class="id">120393</h2>
+            <button class="remove">X</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
