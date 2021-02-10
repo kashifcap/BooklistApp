@@ -24,14 +24,28 @@ h2 {
   font-weight: 400;
 }
 
-.color-name {
-  color: rgb(61, 61, 233);
-}
-
 main {
   width: 80%;
   margin: 0 auto;
   line-height: 1;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  padding: 2rem 0;
+  background-color: #272727;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.color-name,
+.name {
+  color: rgb(61, 61, 233);
 }
 
 .booklist-form form label {

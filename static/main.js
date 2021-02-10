@@ -11,6 +11,7 @@ const messageBox = document.querySelector(".message");
 const bookSectionContainer = document.querySelector(".book-list");
 const bookListCOntainer = document.querySelector(".item-container");
 const removeBtn = document.querySelector(".remove");
+const date = document.querySelector(".date");
 
 const clearInputs = function () {
   titleInput.value = "";
@@ -109,6 +110,7 @@ const renderlist = function () {
 };
 
 const init = function () {
+  date.textContent = new Date().getFullYear();
   loadList();
   render();
 };
