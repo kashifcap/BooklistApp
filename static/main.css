@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -24,7 +25,7 @@ h2 {
 }
 
 .color-name {
-  color: blue;
+  color: rgb(61, 61, 233);
 }
 
 main {
@@ -95,11 +96,13 @@ main {
 }
 
 .remove {
-  max-width: 50%;
+  max-width: 50px;
+  max-height: 50px;
   padding: 0 1rem;
   background-color: red;
   color: #fff;
   border: none;
+  border-radius: 6px;
 }
 
 .message {
@@ -128,7 +131,39 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+  main {
+    width: 95%;
+  }
   .remove {
-    max-width: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0;
+  }
+  .booklist-header {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .item {
+    font-size: 0.8rem;
+  }
+  .remove {
+    margin-left: 6px;
+  }
+  .message {
+    width: 80%;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .success {
+    padding: 0.4rem 0 0.4rem 1rem;
+  }
+
+  .danger {
+    padding: 0.4rem 0 0.4rem 1rem;
   }
 }
