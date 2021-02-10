@@ -123,6 +123,10 @@ main {
   border-radius: 15px;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .remove {
     max-width: 100%;
